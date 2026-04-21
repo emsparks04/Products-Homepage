@@ -1,0 +1,125 @@
+.reflection {
+    position: relative;
+    left: 20px;
+    right: 40px;
+    background-color:rgb(69, 235, 158);
+    width: fit-content;
+    }
+    #page-title {
+        background-color: #b5e3f3;
+        padding: 12px 16px;
+        border-bottom: 3px solid #4be1fb;
+    }
+.img {
+    position: relative;
+    left: 20px;
+    right: 40px;
+    }
+    * {
+    box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+        background-color: rgba(248, 169, 169, 0.7);
+        padding: 10px;
+        text-align: center;
+        font-size: 35px;
+        color: black;
+    }
+
+    nav {
+        float: left;
+        width: 30%;
+        height: 300px; 
+        background: #f4eded;
+        padding: 20px;
+    }
+
+    nav ul {
+        list-style-type: none;
+         padding: 0;
+    }
+
+    article {
+        float: left;
+        padding: 20px;
+        width: 70%;
+        background-color: #f4e2e2;
+        height: 300px; 
+        font-family: Playfair Display, serif;
+    }
+
+    section::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    footer {
+        background-color: #777;
+        padding: 10px;
+      text-align: center;
+        color: white;
+    }
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .vibe {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        background: url(Products.jpg) center/cover no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content {
+        position: relative;
+        z-index: 1;
+        color: black;
+        background: rgba(248, 169, 169, 0.7);
+        padding: 30px 50px;
+        border-radius: 20px;
+        text-align: center;
+        backdrop-filter: blur(5px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        font: 20px baloo 2, cursive;
+        h1 {
+            font: 42px Playfair Display, serif;
+           
+        }
+        font: 18px Playfair Display, serif;
+    }
+    .btn {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 12px 24px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 12px;
+  font-family: serif;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: white;
+  transform: translate(-50%, -50%) scale(1.05);
+}
+h2 {
+    font: 60px Playfair Display, serif;
+    margin-bottom: 20px;
+}
